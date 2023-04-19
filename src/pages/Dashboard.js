@@ -64,9 +64,9 @@ function Dashboard() {
             </form>
           </div>
           {selectedPost && <PostDetails onDelete={onDeleteHandler} postId={selectedPost} />}
-          <AddPost onAddPost={onAddPost} />
         </>
       )}
+      <AddPost onAddPost={onAddPost} />
     </div>
   )
 }
